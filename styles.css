@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line:hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 1px);
+  margin: 1.25rem;
+  zoom: 60%;
+  margin-top: 15rem;
+}
+
+.container {
+  background-color: var(--very-dark-blue-card-bg);
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.container img {
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+}
+
+.container h1 {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.container p {
+  color: var(--soft-blue);
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.container .eth {
+  color: var(--cyan);
+  float: left;
+  margin-left: 5px;
+}
+
+.container .view {
+  margin-left: 24.5rem;
+  margin-top: 0.3rem;
+}
+
+.container .days {
+  float: right;
+}
+
+.container .linha {
+  margin-top: 1rem;
+  border: .1px solid var(--very-dark-blue-line);
+}
+
+.container .avatar {
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  width: 40px;
+  margin-top: 1.5rem;
+}
+
+.container .creation {
+  float: right;
+  margin-top: 2rem;
+  margin-right: 21.5rem;
+} 
+
+.container span {
+  color: var(--white);
+}
+
+.attribution { 
+  font-size: 18px; 
+  text-align: center;
+  color: var(--white); 
+}
+
+.attribution a {
+  color: var(--white);
+}
+
+
